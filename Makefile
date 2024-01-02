@@ -7,4 +7,4 @@ run:
 	@docker run --rm -it ghcr.io/biodiversitydata-se/ala-name-matching-index:1.0.1 bash
 
 release:
-	@./make-release.sh
+	../sbdi-install/utils/make-release.sh
